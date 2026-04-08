@@ -1417,7 +1417,7 @@
         const s = (status || '').toLowerCase();
         if (s === 'restric' || s.includes('restric')) {
             return {
-                message: "Akun terkena restricted, harap segera Verifikasi dan dapat Bonus tambahan total 270k",
+                message: "Akun terkena restricted, harap segera Verifikasi dan dapat Bonus tambahan total 250k",
                 className: "status-message-red"
             };
         } else if (s === 'new acc') {
@@ -1531,7 +1531,7 @@
         if (data.status === 'Unrestric') {
             let unrestrictDiv = document.createElement('div');
             unrestrictDiv.className = 'unrestrict-liquid-message';
-            unrestrictDiv.innerHTML = 'Akun anda berhasil Un-restric<br>🎁 selamat mendapat Bonus total 270k 🎁';
+            unrestrictDiv.innerHTML = 'Akun anda berhasil Un-restric<br>🎁 selamat mendapat Bonus total 250k 🎁';
             msgContainer.appendChild(unrestrictDiv);
         } else {
             let statusMsg = getStatusMessage(data.status);
